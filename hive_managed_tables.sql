@@ -71,10 +71,10 @@ hdfs dfs -put Departments.txt hrms
 hdfs dfs -ls hrms
 
 /*LOAD DATA FROM DFS*/
-LOAD DATA INPATH './Employees.txt' INTO TABLE employees;
+LOAD DATA INPATH './hrms/Employees.txt' INTO TABLE employees;
 
 /*LOAD DATA FROM DFS*/
-LOAD DATA INPATH './Departments.txt' INTO TABLE departments;
+LOAD DATA INPATH './hrms/Departments.txt' INTO TABLE departments;
 
 /*Check out what happened behind the scenes*/
 hdfs dfs -ls /apps/hive/warehouse
