@@ -1,3 +1,7 @@
+/*Download the file from github repo*/
+wget https://raw.githubusercontent.com/raj-arun/apachehive/master/Departments.txt
+wget https://raw.githubusercontent.com/raj-arun/apachehive/master/Employees.txt
+
 CREATE DATABASE HRMS;
 
 USE HRMS;
