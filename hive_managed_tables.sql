@@ -14,7 +14,7 @@ department_id int)
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ',';
 
-CREATE EXTERNAL TABLE IF NOT EXISTS departments (
+CREATE TABLE IF NOT EXISTS departments (
 Department_id int,
 Department_name String)
 ROW FORMAT DELIMITED
@@ -53,7 +53,7 @@ department_id int)
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ',';
 
-CREATE EXTERNAL TABLE IF NOT EXISTS departments (
+CREATE TABLE IF NOT EXISTS departments (
 Department_id int,
 Department_name String)
 ROW FORMAT DELIMITED
